@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .slimBorder {
+    @apply border-b-2 border-[#6c2369];
+  }
+  .pageButton {
+    @apply p-2 rounded-md font-medium text-white bg-[#943b91];
+  }
+}
